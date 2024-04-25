@@ -1,0 +1,562 @@
+[
+  {
+    "﻿name": "Core Biometric Measurements",
+    "diagnostics": "Core Biometric Measurements",
+    "diagnostic_metrics": "Waist Circumference,Height,Weight"
+  },
+  {
+    "﻿name": "Breathing and Lung Function",
+    "diagnostics": "Breathing and Lung Function",
+    "diagnostic_metrics": "FEV1,FVC,FEF-25-75,FEF75,FEV1 Standardised Comparison,FVC Standardised Comparison,FEF-25-75 Standardised Comparison,FEF75 Standardised Comparison,FEV1 % Predicted,FVC % Predicted,FEF-25-75 % Predicted,FEF75 % Predicted"
+  },
+  {
+    "﻿name": "Blood Pressure Profile",
+    "diagnostics": "Blood Pressure Profile",
+    "diagnostic_metrics": "Blood Pressure Profile (Diastolic),Blood Pressure Profile (Systolic)"
+  },
+  {
+    "﻿name": "Basic Aerobic Capacity",
+    "diagnostics": "Astrand Treadmill Test",
+    "diagnostic_metrics": "Astrand Treadmill Test"
+  },
+  {
+    "﻿name": "Baseline Physical Assessment",
+    "diagnostics": "Plank Hold Assessment (Core Strength),Grip Strength Assessment,Single Leg Squat,Inline Lunge Test,Deep Squat Assessment,Trunk Stability Push-Up Test",
+    "diagnostic_metrics": "Plank Time,Dynamometer Grip Strength (Left),Dynamometer Grip Strength (Right),Single Leg Squat (Left) (30s),Single Leg Squat (Right) (30s),Walking Lunge (30s),Bodyweight Deep Squat (30s),Push Ups (30s)"
+  },
+  {
+    "﻿name": "Beginner Physical Assessment",
+    "diagnostics": "",
+    "diagnostic_metrics": ""
+  },
+  {
+    "﻿name": "Advanced Physical Assessment",
+    "diagnostics": "Advanced Muscle Strength and Stability Assessment,Multifocal Combination Assessment",
+    "diagnostic_metrics": "Squat 5RM (85%),Deadlift 5RM (85%),Bench 5RM (85%),Overhead Press 5RM (85%),Max Pull Ups (30s),Max Tuck Jumps (30s),Farmer's Carry (50% BW)"
+  },
+  {
+    "﻿name": "Upper Abdominal Ultrasound",
+    "diagnostics": "Abdominal Organ Ultrasound Screening",
+    "diagnostic_metrics": "Gall Bladder Imaging,Pancreas Imaging,Kidneys Imaging,Spleen Imaging,Abdominal Aorta Imaging,Liver Imaging"
+  },
+  {
+    "﻿name": "MRI Pelvis/Prostate",
+    "diagnostics": "Pelvic (Prostate) MRI",
+    "diagnostic_metrics": "Pelvic (Prostate) MRI"
+  },
+  {
+    "﻿name": "Thyroid Ultrasound",
+    "diagnostics": "Thyroid Ultrasound",
+    "diagnostic_metrics": "Thyroid Ultrasound"
+  },
+  {
+    "﻿name": "CT coronary angiogram (CTCA)",
+    "diagnostics": "CT coronary angiogram (CTCA)",
+    "diagnostic_metrics": "Coronary Artery Findings,Non Cardiac Findings,Noncoronary Cardiac Findings"
+  },
+  {
+    "﻿name": "non-con screening MRI Brain",
+    "diagnostics": "Brain MRI",
+    "diagnostic_metrics": "Brain MRI"
+  },
+  {
+    "﻿name": "Non-con CT chest (everlab™ ultra-low dose protocol)",
+    "diagnostics": "CT chest (everlab™ ultra-low dose protocol)",
+    "diagnostic_metrics": "CT chest (everlab™ ultra-low dose protocol)"
+  },
+  {
+    "﻿name": "Fibroscan",
+    "diagnostics": "Liver Stiffness Fibroscan",
+    "diagnostic_metrics": "Median Liver Stiffness,Controlled Attenuated Parameter (CAP),IQR/Med Ratio"
+  },
+  {
+    "﻿name": "non-con screening MRI Spine",
+    "diagnostics": "Spine MRI",
+    "diagnostic_metrics": "Spine MRI"
+  },
+  {
+    "﻿name": "Renal Tract Ultrasound",
+    "diagnostics": "Renal Tract Ultrasound",
+    "diagnostic_metrics": "Renal Tract Ultrasound"
+  },
+  {
+    "﻿name": "CT Coronary Calcium Score",
+    "diagnostics": "CT Coronary Calcium Score",
+    "diagnostic_metrics": "CT Coronary Calcium Score"
+  },
+  {
+    "﻿name": "Scrotal Ultrasound",
+    "diagnostics": "Scrotal Ultrasound",
+    "diagnostic_metrics": "Scrotal Ultrasound"
+  },
+  {
+    "﻿name": "Exercise Stress Echocardiogram (ESE)",
+    "diagnostics": "Exercise Stress Echocardiogram (ESE)",
+    "diagnostic_metrics": "Exercise Stress Echocardiogram (ESE)"
+  },
+  {
+    "﻿name": "Continuous Glucose Monitor",
+    "diagnostics": "Continuous Glucose Monitor",
+    "diagnostic_metrics": "Continuous Glucose Monitor"
+  },
+  {
+    "﻿name": "In-Home Sleep Test",
+    "diagnostics": "In-Home Sleep Test",
+    "diagnostic_metrics": "In-Home Sleep Test"
+  },
+  {
+    "﻿name": "Cronometer",
+    "diagnostics": "Food Diary Analysis",
+    "diagnostic_metrics": "Food Diary Analysis"
+  },
+  {
+    "﻿name": "VO2 Max Aerobic Capacity",
+    "diagnostics": "Peak Fitness Level Assessment (VO2Max Testing)",
+    "diagnostic_metrics": "Peak Fitness Level Assessment (VO2Max Testing)"
+  },
+  {
+    "﻿name": "AFP",
+    "diagnostics": "Alpha Fetoprotein",
+    "diagnostic_metrics": "Alpha Fetoprotein"
+  },
+  {
+    "﻿name": "Vit D",
+    "diagnostics": "Vitamin D3",
+    "diagnostic_metrics": "Vitamin D3"
+  },
+  {
+    "﻿name": "Aldosterone",
+    "diagnostics": "Aldosterone",
+    "diagnostic_metrics": "Aldosterone"
+  },
+  {
+    "﻿name": "Anti-CCP Ab",
+    "diagnostics": "Anti-CCP Antibodies",
+    "diagnostic_metrics": "Anti-CCP Antibodies"
+  },
+  {
+    "﻿name": "CA 15-3",
+    "diagnostics": "Extended Tumour Markers Screening (Female)",
+    "diagnostic_metrics": "Cancer Antigen 15-3 (Female),Cancer Antigen 125 (Female)"
+  },
+  {
+    "﻿name": "CA-125",
+    "diagnostics": "Extended Tumour Markers Screening (Female)",
+    "diagnostic_metrics": "Cancer Antigen 15-3 (Female),Cancer Antigen 125 (Female)"
+  },
+  {
+    "﻿name": "ANA",
+    "diagnostics": "Antinuclear Antibody",
+    "diagnostic_metrics": "Antinuclear Antibody"
+  },
+  {
+    "﻿name": "Anti-deamidated Gliadin Antibody",
+    "diagnostics": "Anti-deamidated Gliadin Antibody",
+    "diagnostic_metrics": "Anti-deamidated Gliadin Antibody"
+  },
+  {
+    "﻿name": "Apolipoprotein E Genotype",
+    "diagnostics": "Apolipoprotein E Genotype",
+    "diagnostic_metrics": "Apolipoprotein E Genotype"
+  },
+  {
+    "﻿name": "CA 19-9",
+    "diagnostics": "Extended Tumour Markers Screening",
+    "diagnostic_metrics": "Cancer Antigen 19-9,Carcinoembryonic Antigen (CEA)"
+  },
+  {
+    "﻿name": "β-HCG (Female)",
+    "diagnostics": "Beta-HCG (Female)",
+    "diagnostic_metrics": "Beta-HCG (Female)"
+  },
+  {
+    "﻿name": "CEA",
+    "diagnostics": "Extended Tumour Markers Screening",
+    "diagnostic_metrics": "Cancer Antigen 19-9,Carcinoembryonic Antigen (CEA)"
+  },
+  {
+    "﻿name": "Apolipoprotein B",
+    "diagnostics": "Apolipoprotein B",
+    "diagnostic_metrics": "Apolipoprotein B"
+  },
+  {
+    "﻿name": "Clotting Profile",
+    "diagnostics": "Clotting Function Profile",
+    "diagnostic_metrics": "Activated Partial Thromboplastin Clotting Time,Fibrinogen,Prothrombin Time,Prothrombin Ratio (INR),Thrombin Time"
+  },
+  {
+    "﻿name": "Copper",
+    "diagnostics": "Copper",
+    "diagnostic_metrics": "Copper"
+  },
+  {
+    "﻿name": "EBV serology",
+    "diagnostics": "EBV serology",
+    "diagnostic_metrics": "EBV IgG serology,EBV IgM serology"
+  },
+  {
+    "﻿name": "DHEA-S",
+    "diagnostics": "DHEA-S",
+    "diagnostic_metrics": "DHEA-S"
+  },
+  {
+    "﻿name": "Cortisol - morning collection (serum)",
+    "diagnostics": "Morning Serum Cortisol",
+    "diagnostic_metrics": "Morning Serum Cortisol"
+  },
+  {
+    "﻿name": "ECG",
+    "diagnostics": "Electrocardiogram (ECG)",
+    "diagnostic_metrics": "Resting Heart Rate,Trace Morphology,Rhythm,Trace Morphology (P wave deg),Trace Morphology (P wave length),Trace Morphology (PQ interval length),Trace Morphology (QRS complex deg),Trace Morphology (QRS complex length),Trace Morphology (T wave deg),Trace Morphology (QTc length),Trace Morphology (RR interval length),Trace Morphology (QT interval length)"
+  },
+  {
+    "﻿name": "ESR",
+    "diagnostics": "Erythrocyte Sedimentation Rate",
+    "diagnostic_metrics": "Erythrocyte Sedimentation Rate"
+  },
+  {
+    "﻿name": "Estradiol",
+    "diagnostics": "Estradiol",
+    "diagnostic_metrics": "Estradiol"
+  },
+  {
+    "﻿name": "PSA",
+    "diagnostics": "Prostate-Specific Antigen (Male)",
+    "diagnostic_metrics": "Prostate-specific Antigen (PSA) (Male)"
+  },
+  {
+    "﻿name": "FOBT",
+    "diagnostics": "Faecal Occult Blood",
+    "diagnostic_metrics": "Faecal Occult Blood"
+  },
+  {
+    "﻿name": "FPU uACR",
+    "diagnostics": "Urinary Albumin-to-Creatinine Ratio (Early Kidney Protein Loss Detection)",
+    "diagnostic_metrics": "Random Urinary Albumin,Random Urinary Creatinine,Urinary Albumin-to-Creatinine Ratio"
+  },
+  {
+    "﻿name": "Free Testosterone",
+    "diagnostics": "Free Testosterone",
+    "diagnostic_metrics": "Free Testosterone"
+  },
+  {
+    "﻿name": "FSH",
+    "diagnostics": "Follicle-Stimulating Hormone",
+    "diagnostic_metrics": "Follicle-Stimulating Hormone"
+  },
+  {
+    "﻿name": "Fasting BSL",
+    "diagnostics": "Fasting Glucose",
+    "diagnostic_metrics": "Fasting Glucose"
+  },
+  {
+    "﻿name": "Homocysteine",
+    "diagnostics": "Homocysteine",
+    "diagnostic_metrics": "Homocysteine"
+  },
+  {
+    "﻿name": "Iga Anti-tissue Transglutaminase",
+    "diagnostics": "Iga Anti-tissue Transglutaminase",
+    "diagnostic_metrics": "Iga Anti-tissue Transglutaminase"
+  },
+  {
+    "﻿name": "HBsAg",
+    "diagnostics": "Hepatitis B Surface Antigen",
+    "diagnostic_metrics": "Hepatitis B Surface Antigen"
+  },
+  {
+    "﻿name": "Helicobacter Breath Test",
+    "diagnostics": "Helicobacter Breath Test",
+    "diagnostic_metrics": "Helicobacter Breath Test"
+  },
+  {
+    "﻿name": "HBsAb",
+    "diagnostics": "Hepatitis B Surface Antibodies",
+    "diagnostic_metrics": "Hepatitis B Surface Antibodies"
+  },
+  {
+    "﻿name": "HCV AB",
+    "diagnostics": "Hepatitis C Antibodies",
+    "diagnostic_metrics": "Hepatitis C Antibodies"
+  },
+  {
+    "﻿name": "Hep A IgG Ab",
+    "diagnostics": "Hepatitis A IgG Antibody",
+    "diagnostic_metrics": "Hepatitis A IgG Antibody"
+  },
+  {
+    "﻿name": "Growth Hormone",
+    "diagnostics": "Growth Hormone",
+    "diagnostic_metrics": ""
+  },
+  {
+    "﻿name": "IgE",
+    "diagnostics": "Immunoglobulin E (IgE)",
+    "diagnostic_metrics": "Immunoglobulin E (IgE)"
+  },
+  {
+    "﻿name": "HBA1c",
+    "diagnostics": "HbA1c Test",
+    "diagnostic_metrics": "HbA1c (IFCC),HbA1c (NGSP),Estimated Average Glucose"
+  },
+  {
+    "﻿name": "Insulin - Fasting",
+    "diagnostics": "Fasting Insulin",
+    "diagnostic_metrics": "Fasting Insulin"
+  },
+  {
+    "﻿name": "Iron Studies",
+    "diagnostics": "Iron Levels Analysis",
+    "diagnostic_metrics": "Serum Iron,Transferrin Saturation,Serum Transferrin,Serum Ferritin,TIBC (Total Iron-Binding Capacity)"
+  },
+  {
+    "﻿name": "Lipids/HDL/LDL",
+    "diagnostics": "Full Cholesterol Profiling",
+    "diagnostic_metrics": "Total Cholesterol,Non HDL Cholesterol,Serum Triglycerides,HDL Cholesterol,LDL Cholesterol,Total Cholesterol to HDL-C ratio,Triglycerides to HDL-C Ratio"
+  },
+  {
+    "﻿name": "LH",
+    "diagnostics": "Luteinizing Hormone",
+    "diagnostic_metrics": "Luteinizing Hormone"
+  },
+  {
+    "﻿name": "Lipoprotein (a)",
+    "diagnostics": "Lipoprotein (a)",
+    "diagnostic_metrics": "Lipoprotein (a)"
+  },
+  {
+    "﻿name": "LFTs",
+    "diagnostics": "Liver Function Panel",
+    "diagnostic_metrics": "Serum Aspartate Transaminase,Serum Albumin,Serum Bilirubin,Serum Globulin,Serum Alkaline Phosphatase,Serum Gamma-GT,Serum Total Protein,Serum Alanine Aminotransferase"
+  },
+  {
+    "﻿name": "Serum Phosphate",
+    "diagnostics": "Serum Phosphate",
+    "diagnostic_metrics": "Serum Phosphate"
+  },
+  {
+    "﻿name": "Serum PTH",
+    "diagnostics": "Serum Parathyroid Hormone",
+    "diagnostic_metrics": "Serum Parathyroid Hormone"
+  },
+  {
+    "﻿name": "Free T3",
+    "diagnostics": "Triiodothyronine (T3) Free",
+    "diagnostic_metrics": "Triiodothyronine (T3) Free"
+  },
+  {
+    "﻿name": "Vit B12",
+    "diagnostics": "Vitamin B12",
+    "diagnostic_metrics": "Vitamin B12"
+  },
+  {
+    "﻿name": "Testosterone",
+    "diagnostics": "Testosterone Level",
+    "diagnostic_metrics": "Testosterone Level"
+  },
+  {
+    "﻿name": "Blood Lead",
+    "diagnostics": "Serum Lead Level",
+    "diagnostic_metrics": "Serum Lead Level (ug/dL),Serum Lead Level (umol/L)"
+  },
+  {
+    "﻿name": "TSH",
+    "diagnostics": "Thyroid Stimulating Hormone (TSH)",
+    "diagnostic_metrics": "Thyroid Stimulating Hormone (TSH)"
+  },
+  {
+    "﻿name": "Free T4",
+    "diagnostics": "Thyroxine (T4) Free",
+    "diagnostic_metrics": "Thyroxine (T4) Free"
+  },
+  {
+    "﻿name": "Total IgA",
+    "diagnostics": "Total Serum IgA",
+    "diagnostic_metrics": "Total Serum IgA"
+  },
+  {
+    "﻿name": "RF",
+    "diagnostics": "Rheumatoid Factor (RF)",
+    "diagnostic_metrics": "Rheumatoid Factor (RF)"
+  },
+  {
+    "﻿name": "Progesterone",
+    "diagnostics": "Progesterone",
+    "diagnostic_metrics": "Progesterone"
+  },
+  {
+    "﻿name": "Blood Mercury",
+    "diagnostics": "Serum Mercury Level",
+    "diagnostic_metrics": "Serum Mercury Level"
+  },
+  {
+    "﻿name": "HS-CRP",
+    "diagnostics": "High Sensitivity C-Reactive Protein",
+    "diagnostic_metrics": "High Sensitivity C-Reactive Protein"
+  },
+  {
+    "﻿name": "Omega 3 Index (EPA and DHA) and Omega 6 to 3 Ratio",
+    "diagnostics": "Fatty Acid Profile - Omega 3 Index (EPA and DHA) and Omega 6 to 3 Ratio",
+    "diagnostic_metrics": "Fatty Acid Profile - Omega 3 Index (EPA and DHA) and Omega 6 to 3 Ratio"
+  },
+  {
+    "﻿name": "Prolactin",
+    "diagnostics": "Prolactin",
+    "diagnostic_metrics": "Prolactin"
+  },
+  {
+    "﻿name": "Mg",
+    "diagnostics": "Serum Magnesium",
+    "diagnostic_metrics": "Serum Magnesium"
+  },
+  {
+    "﻿name": "MSU MCS",
+    "diagnostics": "Urinalysis Test",
+    "diagnostic_metrics": "Urinalysis Test"
+  },
+  {
+    "﻿name": "RAST (Rye grass, Dust mite, Cat, Dog)",
+    "diagnostics": "RAST Panel",
+    "diagnostic_metrics": "RAST Panel"
+  },
+  {
+    "﻿name": "Renin",
+    "diagnostics": "Renin Level",
+    "diagnostic_metrics": "Renin Level"
+  },
+  {
+    "﻿name": "TPO",
+    "diagnostics": "Thyroid Peroxidase (Tpo)",
+    "diagnostic_metrics": "Thyroid Peroxidase (Tpo)"
+  },
+  {
+    "﻿name": "Uric Acid",
+    "diagnostics": "Uric Acid",
+    "diagnostic_metrics": "Uric Acid (Male),Uric Acid (Female),Uric Acid"
+  },
+  {
+    "﻿name": "Pharmacogenetics Study",
+    "diagnostics": "Pharmacogenetics Study",
+    "diagnostic_metrics": "Pharmacogenetics Study"
+  },
+  {
+    "﻿name": "Serum Calcium",
+    "diagnostics": "Serum Calcium",
+    "diagnostic_metrics": "Serum Calcium,Corrected Calcium"
+  },
+  {
+    "﻿name": "Folate",
+    "diagnostics": "Serum Folate",
+    "diagnostic_metrics": "Serum Folate"
+  },
+  {
+    "﻿name": "Zinc",
+    "diagnostics": "Zinc Level",
+    "diagnostic_metrics": "Zinc Level"
+  },
+  {
+    "﻿name": "Thyroglobulin Antibodies (Tgab)",
+    "diagnostics": "Thyroglobulin Antibodies (Tgab)",
+    "diagnostic_metrics": "Thyroglobulin Antibodies (Tgab)"
+  },
+  {
+    "﻿name": "CRP",
+    "diagnostics": "C-reactive Protein",
+    "diagnostic_metrics": "C-reactive Protein"
+  },
+  {
+    "﻿name": "Cystatin C",
+    "diagnostics": "Cystatin C - Alternative Kidney Function Screen",
+    "diagnostic_metrics": "Cystatin C"
+  },
+  {
+    "﻿name": "SHBG",
+    "diagnostics": "Sex Hormone Binding Globulin",
+    "diagnostic_metrics": "Sex Hormone Binding Globulin"
+  },
+  {
+    "﻿name": "FPU chlamydia NAAT",
+    "diagnostics": "Chlamydia Screening Test",
+    "diagnostic_metrics": "Chlamydia Screening Test"
+  },
+  {
+    "﻿name": "FPU gonorrhoea NAAT",
+    "diagnostics": "Gonorrhoea Screening Test",
+    "diagnostic_metrics": "Gonorrhoea Screening Test"
+  },
+  {
+    "﻿name": "EUC",
+    "diagnostics": "Electrolyte Panel,Kidney Function",
+    "diagnostic_metrics": "Serum Bicarbonate,Serum Chloride,Serum Sodium,Serum Potassium,Serum Urea,Serum Creatinine,Estimated Glomerular Filtration Rate (eGFR)"
+  },
+  {
+    "﻿name": "FBE",
+    "diagnostics": "White Cell Count and Profile,Haemoglobin and Red Cell Analysis,Platelet Count",
+    "diagnostic_metrics": "Eosinophils,Lymphocytes,Monocytes,Neutrophils,Total White Cell Count,Basophils,Mean Corpuscular Haemoglobin Concentration (MCHC),Haemoglobin,Mean Corpuscular Volume (MCV),Haematocrit,Red Cell Count,Red Cell Distribution Width (RDW),Mean Corpuscular Haemoglobin (MCH),Platelets"
+  },
+  {
+    "﻿name": "LDH",
+    "diagnostics": "Lactate Dehydrogenase",
+    "diagnostic_metrics": "Lactate Dehydrogenase"
+  },
+  {
+    "﻿name": "Random BSL",
+    "diagnostics": "Random Glucose",
+    "diagnostic_metrics": "Random Glucose"
+  },
+  {
+    "﻿name": "Random Insulin",
+    "diagnostics": "Random Insulin",
+    "diagnostic_metrics": "Random Insulin"
+  },
+  {
+    "﻿name": "Colonoscopy",
+    "diagnostics": "Colonoscopy",
+    "diagnostic_metrics": "Colonoscopy"
+  },
+  {
+    "﻿name": "Gastroscopy",
+    "diagnostics": "Gastroscopy",
+    "diagnostic_metrics": "Gastroscopy"
+  },
+  {
+    "﻿name": "Australian Cardiovascular Disease 5 Year Risk Forecast",
+    "diagnostics": "Australian Cardiovascular Disease 5 Year Risk Forecast",
+    "diagnostic_metrics": "Australian Cardiovascular Disease 5 Year Risk Forecast"
+  },
+  {
+    "﻿name": "University Of Sheffield Fracture Risk Assessment",
+    "diagnostics": "University Of Sheffield Fracture Risk Assessment",
+    "diagnostic_metrics": "The Ten Year Probability Of Major Osteoporotic Fracture (%),The Ten Year Probability Of Hip Fracture (%)"
+  },
+  {
+    "﻿name": "HOMA-IR",
+    "diagnostics": "HOMA-IR",
+    "diagnostic_metrics": "HOMA-IR"
+  },
+  {
+    "﻿name": "Obesity/Sarcopenia Category",
+    "diagnostics": "Obesity/Sarcopenia Category",
+    "diagnostic_metrics": "Obesity/Sarcopenia Category"
+  },
+  {
+    "﻿name": "Qrisk®3-2018 (UK) Heart Attack/Stroke Risk Forecast",
+    "diagnostics": "Qrisk®3-2018 (UK) Heart Attack/Stroke Risk Forecast",
+    "diagnostic_metrics": "Risk of a Heart Attack or Stroke within the Next 10 Years,Healthy Heart Age,\"Comparable Risk of a Healthy Person with the same Age, Sex, and Ethnicity\""
+  },
+  {
+    "﻿name": "Resting Metabolic Rate Profiling",
+    "diagnostics": "Resting Metabolic Rate Profiling",
+    "diagnostic_metrics": "Resting Metabolic Rate (Harris Benedict Calculation),Resting Metabolic Rate (Cunningham Equation)"
+  },
+  {
+    "﻿name": "DEXA Body Composition Scan + Full Bone Mineral Density Scan",
+    "diagnostics": "Dexa Body Fat Analysis,Bone Mineral Density Measurement,Dexa Visceral Adipose Tissue Analysis,Lean Mass Index",
+    "diagnostic_metrics": "Total Body % Fat,Total Fat Mass,Fat Mass Index (Male) 18-34,Android/Gynoid Ratio,Fat Mass Index (Female) 18-34,Fat Mass Index (Male) 35-54,Fat Mass Index (Male) 55-74,Fat Mass Index (Male) 75+,Fat Mass Index (Female) 35-54,Fat Mass Index (Female) 55-74,Fat Mass Index (Female) 75+,Fat Mass Index,Left Femoral Neck Density,Right Femoral Neck Density,Lumbar Spine Density,Right Femoral Neck Density Standardised Comparison,Left Femoral Neck Density Standardised Comparison,Lumbar Spine Density Standardised Comparison,Estimated VAT volume,Estimated VAT mass,Lean Mass Of Arms,Lean Mass Of Legs,Relative Skeletal Muscle Index (RSMI)"
+  },
+  {
+    "﻿name": "IGF-1",
+    "diagnostics": "Insulin-like growth factor 1",
+    "diagnostic_metrics": "IGF-1"
+  }
+]

@@ -1,0 +1,482 @@
+[
+  {
+    "﻿name": "Haemochromatosis Gene Detected - At Risk of Iron Overload",
+    "diagnostic_metrics": "C282Y Mutation,H63D Mutation"
+  },
+  {
+    "﻿name": "Likely Past History of Cleared Hepatitis B",
+    "diagnostic_metrics": "Hep B core Total Antibody"
+  },
+  {
+    "﻿name": "Likely Reduced Vitamin B12",
+    "diagnostic_metrics": "Holo-transcobalamin"
+  },
+  {
+    "﻿name": "Dust Mite Allergy",
+    "diagnostic_metrics": "Dustmite"
+  },
+  {
+    "﻿name": "Alternaria Alternata Mould Allergy",
+    "diagnostic_metrics": "Alternaria alternata"
+  },
+  {
+    "﻿name": "Rye Grass Allergy",
+    "diagnostic_metrics": "Perennial rye grass"
+  },
+  {
+    "﻿name": "Possible Muscle Breakdown",
+    "diagnostic_metrics": "Creatine kinase"
+  },
+  {
+    "﻿name": "Possible Pancreas Inflammation",
+    "diagnostic_metrics": "Lipase"
+  },
+  {
+    "﻿name": "Increased Risk of Autoimmune Condition",
+    "diagnostic_metrics": "EIA Antigen,Endomysial Antibodies,Extractable Nuclear Antigens,Antinuclear Antibody"
+  },
+  {
+    "﻿name": "Possible HIV Infection",
+    "diagnostic_metrics": "HIV Antibodies"
+  },
+  {
+    "﻿name": "Low Vitamin D",
+    "diagnostic_metrics": "\"1,25 Dihydroxycalciferol\""
+  },
+  {
+    "﻿name": "Possible Syphilis Infection",
+    "diagnostic_metrics": "Syphilis Ab"
+  },
+  {
+    "﻿name": "Immunity To Rubella Not Detected",
+    "diagnostic_metrics": "Rubella IgG"
+  },
+  {
+    "﻿name": "Immunity To Chicken Pox Not Detected",
+    "diagnostic_metrics": "Varicella zoster IgG"
+  },
+  {
+    "﻿name": "Increase Abdominal Arterial Aneurysm Risk",
+    "diagnostic_metrics": "Abdominal Aorta Imaging"
+  },
+  {
+    "﻿name": "Anatomical Abnormality of Pancreas",
+    "diagnostic_metrics": "Pancreas Imaging"
+  },
+  {
+    "﻿name": "Anatomical Abnormality of Liver",
+    "diagnostic_metrics": "Liver Imaging"
+  },
+  {
+    "﻿name": "Anatomical Abnormality of Spleen",
+    "diagnostic_metrics": "Spleen Imaging"
+  },
+  {
+    "﻿name": "Anatomical Abnormality of Gallbladder",
+    "diagnostic_metrics": "Gall Bladder Imaging"
+  },
+  {
+    "﻿name": "Anatomical Abnormality of Kidneys",
+    "diagnostic_metrics": "Kidneys Imaging"
+  },
+  {
+    "﻿name": "Reduced Flexibility",
+    "diagnostic_metrics": "Active Straight-Leg Raise Right (FMS),Active Straight-Leg Raise Left (FMS),Stand & Reach Test"
+  },
+  {
+    "﻿name": "Suboptimal Features on Advanced Muscle Strength and Stability Assessment",
+    "diagnostic_metrics": "Squat 5RM (85%),Overhead Press 5RM (85%),Bench 5RM (85%),Deadlift 5RM (85%)"
+  },
+  {
+    "﻿name": "Increased Risk of Liver Cancer",
+    "diagnostic_metrics": "Alpha Fetoprotein"
+  },
+  {
+    "﻿name": "Increased Risk of Rheumatoid Arthritis",
+    "diagnostic_metrics": "Anti-CCP Antibodies,Rheumatoid Factor (RF)"
+  },
+  {
+    "﻿name": "Increased Risk of Coeliac Disease",
+    "diagnostic_metrics": "Anti-deamidated Gliadin Antibody,Iga Anti-tissue Transglutaminase"
+  },
+  {
+    "﻿name": "Increased Atherosclerotic Disease Risk Due to Suboptimal Lipid Profile",
+    "diagnostic_metrics": "Apolipoprotein B,LDL Cholesterol,Lipoprotein (a)"
+  },
+  {
+    "﻿name": "Reduced Aerobic Capacity",
+    "diagnostic_metrics": "Astrand Treadmill Test"
+  },
+  {
+    "﻿name": "Increased Cardiovascular Disease Risk",
+    "diagnostic_metrics": "Australian Cardiovascular Disease 5 Year Risk Forecast"
+  },
+  {
+    "﻿name": "Abnormal Beta-HCG Levels",
+    "diagnostic_metrics": "Beta-HCG (Female)"
+  },
+  {
+    "﻿name": "Suboptimal Diastolic Blood Pressure",
+    "diagnostic_metrics": "Blood Pressure Profile (Diastolic)"
+  },
+  {
+    "﻿name": "Suboptimal Systolic Blood Pressure",
+    "diagnostic_metrics": "Blood Pressure Profile (Systolic)"
+  },
+  {
+    "﻿name": "Suboptimal Bone Density",
+    "diagnostic_metrics": "Right Femoral Neck Density,Left Femoral Neck Density,Lumbar Spine Density,Right Femoral Neck Density Standardised Comparison,Left Femoral Neck Density Standardised Comparison,Lumbar Spine Density Standardised Comparison"
+  },
+  {
+    "﻿name": "Anatomical Abnormality of The Brain",
+    "diagnostic_metrics": "Brain MRI"
+  },
+  {
+    "﻿name": "Suboptimal Lung Function",
+    "diagnostic_metrics": "FEV1,FVC,FEF-25-75,FEF75,FEV1 Standardised Comparison,FVC Standardised Comparison,FEF-25-75 Standardised Comparison,FEF75 Standardised Comparison,FEV1 % Predicted,FVC % Predicted,FEF-25-75 % Predicted,FEF75 % Predicted"
+  },
+  {
+    "﻿name": "Suboptimal Inflammatory State",
+    "diagnostic_metrics": "C-reactive Protein,Erythrocyte Sedimentation Rate,High Sensitivity C-Reactive Protein"
+  },
+  {
+    "﻿name": "Likely Chlamydia Infection",
+    "diagnostic_metrics": "Chlamydia Screening Test"
+  },
+  {
+    "﻿name": "Abnormal Clotting Function Profile",
+    "diagnostic_metrics": "Activated Partial Thromboplastin Clotting Time,Thrombin Time,Fibrinogen,Prothrombin Time,Prothrombin Ratio (INR)"
+  },
+  {
+    "﻿name": "Abnormal Colonoscopy",
+    "diagnostic_metrics": "Colonoscopy"
+  },
+  {
+    "﻿name": "Raised Waistline",
+    "diagnostic_metrics": "Waist Circumference"
+  },
+  {
+    "﻿name": "Increased Lung Cancer Risk",
+    "diagnostic_metrics": "CT chest (everlab™ ultra-low dose protocol)"
+  },
+  {
+    "﻿name": "Incidental Non-Cardiac Finding",
+    "diagnostic_metrics": "Non Cardiac Findings"
+  },
+  {
+    "﻿name": "Abnormal Non-Coronary Cardiac Finding",
+    "diagnostic_metrics": "Noncoronary Cardiac Findings"
+  },
+  {
+    "﻿name": "Abnormal Coronary Artery Finding",
+    "diagnostic_metrics": "Coronary Artery Findings"
+  },
+  {
+    "﻿name": "Established Coronary Artery Calcification",
+    "diagnostic_metrics": "CT Coronary Calcium Score"
+  },
+  {
+    "﻿name": "Suboptimal Functional Movement",
+    "diagnostic_metrics": "Bodyweight Deep Squat (30s),Hurdle Step Right (FMS),Hurdle Step Left (FMS),Inline Lunge Right (FMS),Walking Lunge (30s),Rotary Stability Right (FMS),Rotary Stability Left (FMS),Shoulder Immobility Right (FMS),Shoulder Immobility Left (FMS),Single Leg Squat (Left) (30s),Single Leg Squat (Right) (30s),Push Ups (30s)"
+  },
+  {
+    "﻿name": "Elevated Body Fat Content",
+    "diagnostic_metrics": "Fat Mass Index,Fat Mass Index (Male) 18-34,Fat Mass Index (Male) 35-54,Fat Mass Index (Male) 55-74,Fat Mass Index (Male) 75+,Fat Mass Index (Female) 18-34,Fat Mass Index (Female) 35-54,Fat Mass Index (Female) 55-74,Fat Mass Index (Female) 75+"
+  },
+  {
+    "﻿name": "Suboptimal Fat Distribution and Body Shape",
+    "diagnostic_metrics": "Android/Gynoid Ratio"
+  },
+  {
+    "﻿name": "Suboptimal Total Body Fat",
+    "diagnostic_metrics": "Total Body % Fat"
+  },
+  {
+    "﻿name": "Suboptimal Metabolic Health and Unfavourable Fat Distribution",
+    "diagnostic_metrics": "Estimated VAT volume,Estimated VAT mass"
+  },
+  {
+    "﻿name": "Evidence of Previous EBV Infection",
+    "diagnostic_metrics": "EBV IgG serology"
+  },
+  {
+    "﻿name": "Evidence of Recent EBV Infection",
+    "diagnostic_metrics": "EBV IgM serology"
+  },
+  {
+    "﻿name": "Abnormal Heart Rhythm",
+    "diagnostic_metrics": "Rhythm"
+  },
+  {
+    "﻿name": "Raised Resting Heart Rate",
+    "diagnostic_metrics": "Resting Heart Rate"
+  },
+  {
+    "﻿name": "Abnormal Electrocardiogram (ECG) Trace",
+    "diagnostic_metrics": "Trace Morphology,Trace Morphology (P wave deg),Trace Morphology (P wave length),Trace Morphology (PQ interval length),Trace Morphology (QRS complex deg),Trace Morphology (QRS complex length),Trace Morphology (T wave deg),Trace Morphology (QTc length),Trace Morphology (RR interval length),Trace Morphology (QT interval length)"
+  },
+  {
+    "﻿name": "Blood Electrolyte out of Reference Range",
+    "diagnostic_metrics": "Serum Potassium,Serum Sodium,Serum Bicarbonate,Serum Chloride"
+  },
+  {
+    "﻿name": "Abnormal Features on Exercise Stress Echocardiogram",
+    "diagnostic_metrics": "Exercise Stress Echocardiogram (ESE)"
+  },
+  {
+    "﻿name": "Increased Risk of Colorectal and Pancreatic Cancers",
+    "diagnostic_metrics": "Carcinoembryonic Antigen (CEA)"
+  },
+  {
+    "﻿name": "Increased Risk of Breast Cancer",
+    "diagnostic_metrics": "Cancer Antigen 19-9"
+  },
+  {
+    "﻿name": "Increased Risk of Pancreatic or Other Gastrointestinal Cancers",
+    "diagnostic_metrics": "Cancer Antigen 125 (Female)"
+  },
+  {
+    "﻿name": "Increased Risk of Ovarian Cancer",
+    "diagnostic_metrics": "Cancer Antigen 15-3 (Female)"
+  },
+  {
+    "﻿name": "Increased Bowel Cancer Risk",
+    "diagnostic_metrics": "Faecal Occult Blood"
+  },
+  {
+    "﻿name": "Suboptimal Metabolic Health and Glucose Processing",
+    "diagnostic_metrics": "Fasting Glucose,Fasting Insulin"
+  },
+  {
+    "﻿name": "Suboptimal Lipid Profile for Arterial Health",
+    "diagnostic_metrics": "HDL Cholesterol,Non HDL Cholesterol,Total Cholesterol,Total Cholesterol to HDL-C ratio"
+  },
+  {
+    "﻿name": "Suboptimal Metabolic Health",
+    "diagnostic_metrics": "Serum Triglycerides,Triglycerides to HDL-C Ratio"
+  },
+  {
+    "﻿name": "Abnormal Gastroscopy",
+    "diagnostic_metrics": "Gastroscopy"
+  },
+  {
+    "﻿name": "Likely Gonorrhoea Infection",
+    "diagnostic_metrics": "Gonorrhoea Screening Test"
+  },
+  {
+    "﻿name": "Low Grip Strength for Age and Gender",
+    "diagnostic_metrics": "Dynamometer Grip Strength (Left),Dead Hang,Dynamometer Grip Strength (Right)"
+  },
+  {
+    "﻿name": "Red Cell Count and Morphology out of Normal Reference Range",
+    "diagnostic_metrics": "Red Cell Count,Mean Corpuscular Haemoglobin (MCH),Haematocrit,Red Cell Distribution Width (RDW),Mean Corpuscular Haemoglobin Concentration (MCHC)"
+  },
+  {
+    "﻿name": "Abnormal Blood Count",
+    "diagnostic_metrics": "Haemoglobin"
+  },
+  {
+    "﻿name": "Abnormal Red Cell Size",
+    "diagnostic_metrics": "Mean Corpuscular Volume (MCV)"
+  },
+  {
+    "﻿name": "Suboptimal Metabolic Health and Increased Average Sugar Level",
+    "diagnostic_metrics": "HbA1c (IFCC),HbA1c (NGSP),Estimated Average Glucose"
+  },
+  {
+    "﻿name": "Helicobacter Infection of Stomach",
+    "diagnostic_metrics": "Helicobacter Breath Test"
+  },
+  {
+    "﻿name": "Vulnerable To Hepatitis A Infection",
+    "diagnostic_metrics": "Hepatitis A IgG Antibody"
+  },
+  {
+    "﻿name": "Vulnerable To Hepatitis B Infection",
+    "diagnostic_metrics": "Hepatitis B Surface Antibodies"
+  },
+  {
+    "﻿name": "Likely Hepatitis B Infection",
+    "diagnostic_metrics": "Hepatitis B Surface Antigen"
+  },
+  {
+    "﻿name": "Possible Hepatitis C Infection",
+    "diagnostic_metrics": "Hepatitis C Antibodies"
+  },
+  {
+    "﻿name": "Suboptimal Metabolic Health and Insulin Sensitivity",
+    "diagnostic_metrics": "HOMA-IR"
+  },
+  {
+    "﻿name": "Increased Atherosclerotic Disease Risk",
+    "diagnostic_metrics": "Homocysteine"
+  },
+  {
+    "﻿name": "Suboptimal Allergy Status",
+    "diagnostic_metrics": "Immunoglobulin E (IgE)"
+  },
+  {
+    "﻿name": "Abnormal Iron Stores",
+    "diagnostic_metrics": "Serum Ferritin"
+  },
+  {
+    "﻿name": "Abnormal Kidney Function",
+    "diagnostic_metrics": "Estimated Glomerular Filtration Rate (eGFR)"
+  },
+  {
+    "﻿name": "Possible Kidney Function Impairment",
+    "diagnostic_metrics": "Serum Urea,Serum Creatinine,Random Urinary Creatinine,Random Urinary Albumin"
+  },
+  {
+    "﻿name": "Raised Disease Marker",
+    "diagnostic_metrics": "Lactate Dehydrogenase"
+  },
+  {
+    "﻿name": "Reduced Lean Mass",
+    "diagnostic_metrics": "Lean Mass Of Legs,Relative Skeletal Muscle Index (RSMI),Lean Mass Of Arms"
+  },
+  {
+    "﻿name": "Abnormal Liver Enzymes",
+    "diagnostic_metrics": "Serum Bilirubin,Serum Alkaline Phosphatase,Serum Alanine Aminotransferase,Serum Globulin,Serum Albumin,Serum Aspartate Transaminase,Serum Total Protein,Serum Gamma-GT"
+  },
+  {
+    "﻿name": "Fibroscan Accuracy Low",
+    "diagnostic_metrics": "IQR/Med Ratio"
+  },
+  {
+    "﻿name": "Increased Liver Stiffness",
+    "diagnostic_metrics": "Median Liver Stiffness"
+  },
+  {
+    "﻿name": "Fatty Liver",
+    "diagnostic_metrics": "Controlled Attenuated Parameter (CAP)"
+  },
+  {
+    "﻿name": "Elevated Morning Cortisol Levels",
+    "diagnostic_metrics": "Morning Serum Cortisol"
+  },
+  {
+    "﻿name": "Suboptimal Features on Combination Functional Assessment",
+    "diagnostic_metrics": "Farmer's Carry (50% BW),Max Pull Ups (30s),Max Tuck Jumps (30s)"
+  },
+  {
+    "﻿name": "Suboptimal Aerobic Fitness for Age",
+    "diagnostic_metrics": "Peak Fitness Level Assessment (VO2Max Testing)"
+  },
+  {
+    "﻿name": "Abnormal Pelvic MRI",
+    "diagnostic_metrics": "Pelvic (Prostate) MRI"
+  },
+  {
+    "﻿name": "Suboptimal Core Strength",
+    "diagnostic_metrics": "Plank Time"
+  },
+  {
+    "﻿name": "Abnormal Platelet Count",
+    "diagnostic_metrics": "Platelets"
+  },
+  {
+    "﻿name": "Increased Prostate Cancer Risk",
+    "diagnostic_metrics": "Prostate-specific Antigen (PSA) (Male)"
+  },
+  {
+    "﻿name": "Elevated Heart Age",
+    "diagnostic_metrics": "Healthy Heart Age"
+  },
+  {
+    "﻿name": "Increased Heart Attack and Stroke Risk",
+    "diagnostic_metrics": "Risk of a Heart Attack or Stroke within the Next 10 Years"
+  },
+  {
+    "﻿name": "Suboptimal Metabolic Health and Blood Sugars",
+    "diagnostic_metrics": "Random Glucose"
+  },
+  {
+    "﻿name": "Suboptimal Metabolic Health and Sugar Processing",
+    "diagnostic_metrics": "Random Insulin"
+  },
+  {
+    "﻿name": "Likely Environmental Allergy",
+    "diagnostic_metrics": "RAST Panel"
+  },
+  {
+    "﻿name": "Abnormal Renal Tract Ultrasound",
+    "diagnostic_metrics": "Renal Tract Ultrasound"
+  },
+  {
+    "﻿name": "Suboptimal Resting Metabolic Rate and Low Lean Body Mass",
+    "diagnostic_metrics": "Resting Metabolic Rate (Cunningham Equation),Resting Metabolic Rate (Harris Benedict Calculation)"
+  },
+  {
+    "﻿name": "Abnormal Scrotal Ultrasound",
+    "diagnostic_metrics": "Scrotal Ultrasound"
+  },
+  {
+    "﻿name": "Low Serum Folate",
+    "diagnostic_metrics": "Serum Folate"
+  },
+  {
+    "﻿name": "Abnormal Lead Levels",
+    "diagnostic_metrics": "Serum Lead Level (ug/dL),Serum Lead Level (umol/L)"
+  },
+  {
+    "﻿name": "Low Serum Magnesium",
+    "diagnostic_metrics": "Serum Magnesium"
+  },
+  {
+    "﻿name": "Elevated Mercury Levels",
+    "diagnostic_metrics": "Serum Mercury Level"
+  },
+  {
+    "﻿name": "Low Serum Phosphate",
+    "diagnostic_metrics": "Serum Phosphate"
+  },
+  {
+    "﻿name": "Anatomical Abnormality of The Spine",
+    "diagnostic_metrics": "Spine MRI"
+  },
+  {
+    "﻿name": "At Risk of Autoimmune Thyroid Disease",
+    "diagnostic_metrics": "Thyroglobulin Antibodies (Tgab),Thyroid Peroxidase (Tpo)"
+  },
+  {
+    "﻿name": "Abnormal Thyroid Function",
+    "diagnostic_metrics": "Thyroid Stimulating Hormone (TSH),Thyroxine (T4) Free,Triiodothyronine (T3) Free"
+  },
+  {
+    "﻿name": "Abnormal Thyroid Ultrasound",
+    "diagnostic_metrics": "Thyroid Ultrasound"
+  },
+  {
+    "﻿name": "Increased Risk of Fracture",
+    "diagnostic_metrics": "The Ten Year Probability Of Major Osteoporotic Fracture (%),The Ten Year Probability Of Hip Fracture (%)"
+  },
+  {
+    "﻿name": "Suboptimal Metabolic Health and Increased Gout Risk",
+    "diagnostic_metrics": "Uric Acid (Male),Uric Acid,Uric Acid (Female)"
+  },
+  {
+    "﻿name": "Abnormal Urine Screening Test",
+    "diagnostic_metrics": "Urinalysis Test"
+  },
+  {
+    "﻿name": "Possible Kidney Impairment",
+    "diagnostic_metrics": "Urinary Albumin-to-Creatinine Ratio"
+  },
+  {
+    "﻿name": "Low Vitamin B12",
+    "diagnostic_metrics": "Vitamin B12"
+  },
+  {
+    "﻿name": "Suboptimal Vitamin D",
+    "diagnostic_metrics": "Vitamin D3"
+  },
+  {
+    "﻿name": "White Cell Count out of Normal Reference Range",
+    "diagnostic_metrics": "Neutrophils,Eosinophils,Basophils,Lymphocytes,Monocytes,Total White Cell Count"
+  },
+  {
+    "﻿name": "Suboptimal Zinc Level",
+    "diagnostic_metrics": "Zinc Level"
+  }
+]
