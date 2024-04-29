@@ -1,18 +1,3 @@
-export interface JSONObject {
-  [k: string]: number | string | JSONObject;
-}
-
-export interface DiagnosticGroup {
-  name: string;
-  diagnostic_metrics: string;
-}
-
-export interface Diagnostic {
-  name: string;
-  diagnostic_groups: string;
-  diagnostic_metrics: string;
-}
-
 export interface DiagnosticMetric {
   diagnostic: string;
   diagnostic_groups: string;
@@ -29,12 +14,16 @@ export interface DiagnosticMetric {
   units: string;
 }
 
+export interface Analyses {
+  [k: string]: Analysis[];
+}
+
 export interface Condition {
   name: string;
   diagnostic_metrics: string;
 }
 
-export interface Analysis {
+interface Analysis {
   conditions: Condition[];
   pid: PID;
   observation: OBX;
@@ -60,7 +49,7 @@ export interface PID {
   origin?: string;
   firstName?: string;
   lastName?: string;
-  ssn: string;
+  ssn?: string;
   birthdate?: string;
   gender?: string;
   streetName?: string;
@@ -82,9 +71,4 @@ export interface OBX {
   units: ObservationUnit;
   referencesRange: string;
   dateTime: string;
-}
-
-export interface HL7File {
-  pid: PID[];
-  obx: OBX[];
 }

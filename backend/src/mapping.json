@@ -17,6 +17,7 @@
         { "field": "pid.id", "component": [3, 1] },
         { "field": "pid.origin", "component": [3, 4] },
         { "field": "pid.firstName", "component": [5, 2] },
+        { "field": "pid.ssn", "component": [19, 1] },
         { "field": "pid.lastName", "component": [5, 1] },
         { "field": "pid.birthdate", "component": [7, 1] },
         { "field": "pid.gender", "component": [8, 1] },

@@ -4,13 +4,19 @@ import readline from 'readline';
 import path from 'path';
 import { DAO } from './dao.helpers';
 import {
+  Analysis,
   Condition,
   Diagnostic,
   DiagnosticGroup,
   DiagnosticMetric,
   HL7File,
 } from './types/types';
-import { analyseTestResults, upload, processHL7File } from './utils';
+import {
+  groupByPatientSSN,
+  analyseTestResults,
+  upload,
+  processHL7File,
+} from './utils';
 
 const db = {
   diagnosticGroupsDAO: new DAO<DiagnosticGroup>('diagnostic_groups'),
@@ -18,60 +24,69 @@ const db = {
   conditionsDAO: new DAO<Condition>('conditions'),
   diagnosticMetricsDAO: new DAO<DiagnosticMetric>('diagnostic_metrics'),
   processedHLSFilesDAO: new DAO<HL7File>('processed_hls_file'),
+  analysesDAO: new DAO<Analysis>('analysis'),
 };
 const app = express();
-const port = 3000;
+const port = 8000;
 
-app.get('/', (req, res) => {
-  res.send('Hello world');
+app.use(function (req, res, next) {
+  res.setHeader('Access-Control-Allow-Origin', 'http://localhost:3000');
+  res.setHeader(
+    'Access-Control-Allow-Methods',
+    'GET, POST, OPTIONS, PUT, PATCH, DELETE',
+  );
+  res.setHeader(
+    'Access-Control-Allow-Headers',
+    'X-Requested-With,content-type',
+  );
+  res.setHeader('Access-Control-Allow-Credentials', true.toString());
+
+  next();
 });
 
-app.post('/upload', upload.single('file'), (req, res) => {
+app.get('/ping', (req, res) => {
+  res.send('pong');
+});
+
+app.post('/upload', upload.single('file'), async (req, res) => {
   const file = req.file;
   if (!file) {
-    return res.status(400).send('No file uploaded.');
+    return res.status(400).json({ error: 'No file uploaded.' });
   }
 
-  (async () => {
-    // read file and save data
-    const clear = req.query.clear;
-    let prefix = '';
-    if (clear == 'true') {
-      await db.processedHLSFilesDAO.clear();
-      prefix = 'Cleared!! ';
-    }
-    const processedFile = await processHL7File(file.path);
-    db.processedHLSFilesDAO.insert(processedFile);
+  // read file and save data
+  const clear = req.query.clear;
+  let prefix = '';
+  if (clear == 'true') {
+    await db.processedHLSFilesDAO.clear();
+    await db.analysesDAO.clear();
+    prefix = 'Cleared!! ';
+  }
 
-    // analyse results
-    const analysis = await analyseTestResults(
-      processedFile,
-      await db.diagnosticMetricsDAO.get(),
-    );
+  // process the file
+  const processedFile = await processHL7File(file.path);
+  db.processedHLSFilesDAO.insert(processedFile);
 
-    // group analysis by oru_sonic_codes, order by date asc
-    // allows for same kind of tests done multiple times to be organized so that
-    // it's easier to spot when the patient enterred a particular risk zone
+  // analyse results
+  const analyses = await analyseTestResults(
+    processedFile,
+    await db.diagnosticMetricsDAO.get(),
+    await db.conditionsDAO.get(),
+  );
 
-    // return analysis
-    res.json(analysis);
-  })();
+  // store the analyses
+  await db.analysesDAO.insertBulk(analyses);
+  res.json(analyses);
 });
 
-app.get('/files', (req, res) => {
-  (async () => {
-    const name = req.query.name?.toString();
-    const data = await new DAO<HL7File>(name || 'diagnostics').get();
-    res.json(data);
-  })();
+app.get('/analyses', async (req, res) => {
+  res.json(groupByPatientSSN(await db.analysesDAO.get()));
 });
 
-app.get('/reports/:patientId', (req, res) => {
-  (async () => {
-    const patiendId = req.params.patientId;
-    const data = await db.diagnosticsDAO.get();
-    res.json(data);
-  })();
+app.get('/clear-analyses', async (req, res) => {
+  await db.analysesDAO.clear();
+  await db.processedHLSFilesDAO.clear();
+  res.json({ success: true });
 });
 
 app.listen(port, () => {

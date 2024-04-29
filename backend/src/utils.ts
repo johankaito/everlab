@@ -1,5 +1,6 @@
 import {
   Analysis,
+  Condition,
   DiagnosticMetric,
   HL7File,
   JSONObject,
@@ -28,12 +29,13 @@ export const upload = multer({ storage: storage });
 export const analyseTestResults = (
   testResults: HL7File,
   metrics: DiagnosticMetric[],
+  conditions: Condition[],
 ): Analysis[] => {
   const sonicCodeToMetrics = metrics.reduce<{
     [k: string]: DiagnosticMetric[];
   }>((acc, m) => {
     // flatten the codes
-    const codeArr = m.oru_sonic_codes.split(';');
+    const codeArr = m.oru_sonic_codes.split(';').map((c) => c.trim());
     codeArr.forEach((code) => {
       if (acc[code]) {
         acc[code].push(m);
@@ -44,7 +46,23 @@ export const analyseTestResults = (
 
     return acc;
   }, {});
+  const metricToCondition = conditions.reduce<{
+    [k: string]: Condition[];
+  }>((acc, c) => {
+    // flatten the metrics
+    const metricArr = c.diagnostic_metrics.split(',').map((m) => m.trim());
+    metricArr.forEach((metric) => {
+      if (acc[metric]) {
+        acc[metric].push(c);
+      }
 
+      acc[metric] = [c];
+    });
+
+    return acc;
+  }, {});
+
+  // we assume that all the test results are from the same patient
   const pid = testResults.pid[0];
   // run through all the observations
   return testResults.obx.reduce<Analysis[]>((acc, observation) => {
@@ -64,10 +82,13 @@ export const analyseTestResults = (
       if (isStandardRisk || isEverlabRisk) {
         // check range
         acc.push({
+          conditions: metricToCondition[metric.diagnostic],
+          pid,
           observation,
           metric,
           isStandardRisk,
           isEverlabRisk,
+          createdAt: Math.floor(new Date().getTime() / 1000),
         });
       }
     }
@@ -171,8 +192,40 @@ const getAge = (dateStr?: string): number => {
 
   const date = new Date(
     parseInt(dateStr.substr(0, 4)),
-    parseInt(dateStr.substr(4, 2)),
+    parseInt(dateStr.substr(4, 2)) - 1, // months start at 0
     parseInt(dateStr.substr(6, 2)),
   );
   return new Date().getUTCFullYear() - date.getUTCFullYear();
 };
+
+export const groupByPatientSSN = (analyses: Analysis[]) => {
+  const ssnToAnalyses = analyses.reduce<{ [k: string]: Analysis[] }>(
+    (acc, analysis) => {
+      if (acc[analysis.pid.ssn]) {
+        acc[analysis.pid.ssn].push(analysis);
+      } else {
+        acc[analysis.pid.ssn] = [analysis];
+      }
+      return acc;
+    },
+    {},
+  );
+
+  return ssnToAnalyses;
+};
+
+const parseObservationDateTime = (dateStr: string): Date | undefined => {
+  if (!dateStr) return;
+  if (dateStr.length !== 12) return;
+
+  return new Date(
+    parseInt(dateStr.substr(0, 4)),
+    parseInt(dateStr.substr(4, 2)) - 1, // months start at 0
+    parseInt(dateStr.substr(6, 2)),
+    parseInt(dateStr.substr(8, 2)),
+    parseInt(dateStr.substr(10, 2)),
+  );
+};
+
+export const unixtimestampToDate = (timestamp: number) =>
+  new Date(timestamp * 1000);
