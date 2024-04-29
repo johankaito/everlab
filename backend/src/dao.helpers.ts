@@ -16,15 +16,21 @@ export class DAO<T> {
     return SQLiteHelper.initDatabase(this.db, this.tableName);
   }
 
-  async insertData(data: T): Promise<void> {
+  async insert(data: T): Promise<void> {
     return SQLiteHelper.insertData<T>(this.db, data, this.tableName);
   }
 
   async insertBulk(data: T[]): Promise<void> {
-    return data.forEach(d => SQLiteHelper.insertData<T>(this.db, d, this.tableName));
+    return data.forEach((d) =>
+      SQLiteHelper.insertData<T>(this.db, d, this.tableName),
+    );
   }
 
-  async getData(): Promise<T[]> {
+  async get(): Promise<T[]> {
     return SQLiteHelper.getData(this.db, this.tableName);
+  }
+
+  async clear(): Promise<void> {
+    return SQLiteHelper.clearData(this.db, this.tableName);
   }
 }

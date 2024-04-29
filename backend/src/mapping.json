@@ -1,0 +1,45 @@
+{
+  "format": "hl7-2.4",
+  "adapter": "default",
+  "mapping": {
+    "msh": {
+      "values": [
+        { "field": "msh.messageDatetime", "component": [5, 1] },
+        { "field": "msh.messageType", "component": [7, 1] },
+        { "field": "msh.messageTypeRef", "component": [7, 2] },
+        { "field": "msh.messageControlId", "component": [8, 1] },
+        { "field": "msh.principalLanguageOfMessage", "component": [15, 1] },
+        { "field": "msh.characterSet", "component": [16, 1] }
+      ]
+    },
+    "pid": {
+      "values": [
+        { "field": "pid.id", "component": [3, 1] },
+        { "field": "pid.origin", "component": [3, 4] },
+        { "field": "pid.firstName", "component": [5, 2] },
+        { "field": "pid.lastName", "component": [5, 1] },
+        { "field": "pid.birthdate", "component": [7, 1] },
+        { "field": "pid.gender", "component": [8, 1] },
+        { "field": "pid.streetName", "component": [11, 1] },
+        { "field": "pid.city", "component": [11, 3] },
+        { "field": "pid.zipCode", "component": [11, 5] },
+        { "field": "pid.phone", "component": [13, 1] },
+        { "field": "pid.email", "component": [13, 4] }
+      ]
+    },
+    "obx": {
+      "values": [
+        { "field": "obx.identifier.identifier", "component": [3, 1] },
+        { "field": "obx.identifier.text", "component": [3, 2] },
+        { "field": "obx.identifier.codingSystem", "component": [3, 3] },
+        { "field": "obx.value.text1", "component": [5, 1] },
+        { "field": "obx.value.text2", "component": [5, 2] },
+        { "field": "obx.value.type", "component": [2, 1] },
+        { "field": "obx.units.identifier", "component": [6, 1] },
+        { "field": "obx.units.text", "component": [6, 2] },
+        { "field": "obx.referencesRange", "component": [7, 1] },
+        { "field": "obx.dateTime", "component": [14, 1] }
+      ]
+    }
+  }
+}

@@ -49,4 +49,19 @@ export class SQLiteHelper {
       });
     });
   }
+
+  static async clearData<T>(
+    db: sqlite3.Database,
+    tableName: string,
+  ): Promise<void> {
+    return new Promise<void>((resolve, reject) => {
+      db.run(`DELETE FROM ${tableName}`, (err) => {
+        if (err) {
+          reject(err);
+        } else {
+          resolve();
+        }
+      });
+    });
+  }
 }
